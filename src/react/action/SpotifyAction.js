@@ -33,8 +33,8 @@ function GetPlaylistFromArtistSuccess(dispatch,PlayLists) {
 function GetRequest(musician = "", type = "") {
   const url =
     "https://api.spotify.com/v1/search?q=" + musician + "&type=" + type;
-  const authToken =
-    "BQDO_8n2UOhCAe92QBQdS80ePrjLSI9BEV1J-Ufhn53BTBe1kIF92by4-o84FvWj-mTIrDRSA18WakEN0Yq8ooCb6moWllveRbUvnm3Pg8G890Acd0HFrWyeTAu-EP4VX_6olst_TwcYkZrnBlZ7Q_Z6BjJjLZzHETPOJTTb-B0yST1MLSXK";
+  const authToken =" " =>//your authentication token 
+    
 
   const config = {
     headers: {
