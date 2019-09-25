@@ -8,10 +8,10 @@ function GetArtistItemsSuccess(dispatch,Artists) {
   });
 }
 
-function GetPlayListItemsFromArtistSuccess(dispatch,Playlists) {
+function GetPlayListItemsFromArtistSuccess(dispatch,PlayLists) {
   return dispatch({
     type: actionTypes.GET_PLAYLIST_ITEMS_FROM_ARTIST,
-    payload:Playlists
+    payload:PlayLists
   })
 }
 

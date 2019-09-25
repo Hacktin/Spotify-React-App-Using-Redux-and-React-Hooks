@@ -1,11 +1,12 @@
 import React from 'react';
 
-import Artist from '../Artist/Artist'
+
+import Playlist from '../PlayList/Playlist'
 
 function App() {
   return (
     <div>
-      <Artist/>
+      <Playlist/>
     </div>
   );
 }
