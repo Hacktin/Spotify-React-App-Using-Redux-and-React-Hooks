@@ -4,12 +4,15 @@ import App from './components/root/App';
 import * as serviceWorker from './serviceWorker';
 import {Provider} from 'react-redux'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import {BrowserRouter} from 'react-router-dom'
+import '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/react-fontawesome'
 
 import ConfigureStore from './react/ConfigureStore'
 
 const store=ConfigureStore()
 
-ReactDOM.render(<Provider store={store} ><App /></Provider>, document.getElementById('root'));
+ReactDOM.render(<Provider store={store} ><BrowserRouter><App /></BrowserRouter></Provider>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

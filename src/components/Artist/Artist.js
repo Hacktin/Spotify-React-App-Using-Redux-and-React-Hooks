@@ -68,4 +68,4 @@ function Artist() {
   );
 }
 
-export default React.memo(Artist)
+export default Artist

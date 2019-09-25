@@ -18,9 +18,7 @@ function Playlist() {
     event.preventDefault();
   }
 
-  function WriteState(){
-      console.log(PlayLists)
-  }
+ 
 
   return(
       <div>
@@ -33,7 +31,7 @@ function Playlist() {
             <Button>Search</Button>
           </FormGroup>
         </Form>
-        <Button onClick={WriteState}>Tıkla</Button>
+     
         </Container>
 
      <Container fluid>
@@ -75,4 +73,4 @@ function Playlist() {
 
 }
 
-export default React.memo(Playlist);
+export default Playlist
